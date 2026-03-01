@@ -101,5 +101,5 @@ The script creates `data/products.json` with one JSON object per line:
 - `slow_mo=500` adds a 500ms delay between actions for stability
 - Output is appended to the file (use `open(OUTPUT_FILE, "a")`) - delete the file before re-running if needed
 
-- The script extracts the data as long as it generates and we can modify it by extracting the exact value and do that much iterations (ex:3223). currently i used only 250 scrolls
+- The script extracts the data as long as the webpage generates and we can modify it by extracting the exact value and do that much iterations (ex:3223). and srolls , currently i used only 250 scrolls
 
