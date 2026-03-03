@@ -25,7 +25,7 @@ HEADLESS = False
 def session_is_valid(page):
     try:
         page.goto(CHALLENGE_URL, timeout=15000)
-        page.wait_for_selector("table", timeout=5000)
+        page.wait_for_selector("button:has-text('Launch Challenge')", timeout=5000)
         return True
     except PlaywrightTimeoutError:
         return False
