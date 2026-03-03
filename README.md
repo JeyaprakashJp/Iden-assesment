@@ -102,4 +102,5 @@ The script creates `data/products.json` with one JSON object per line:
 - Output is appended to the file (use `open(OUTPUT_FILE, "a")`) - delete the file before re-running if needed
 
 - The script extracts the data as long as the webpage generates and we can modify it by extracting the exact value and do that much iterations (ex:3223). and srolls , currently i used only 250 scrolls
+- The Products.json file contains the extracted data using the Script
 
